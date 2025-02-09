@@ -3849,5 +3849,3 @@ end
  
     end)
 end
-local myTitle = "赣脚本" 
-CreateGUI(myTitle)

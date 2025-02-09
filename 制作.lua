@@ -1,19 +1,4 @@
-local function animateNotification() 
-     Frame:TweenPosition(UDim2.new(1, -200, 1, -50), Enum.EasingDirection.InOut, Enum.EasingStyle.Sine, 0.5, true) 
-     wait(creditDuration - 1) 
-     Frame:TweenPosition(UDim2.new(1, 0, 1, -50), Enum.EasingDirection.InOut, Enum.EasingStyle.Sine, 0.5, true) 
-     wait(0.5) 
-     ScreenGui:Destroy() 
- end 
-  
- animateNotification() 
- local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua")) 
- local bindable = Instance.new("BindableFunction") 
- bindable.OnInvoke = function(button) 
- print("1") 
- end 
- 
- local library = loadstring(game:HttpGet("https://pastebin.com/raw/3vQbADjh", true))()
+local library = loadstring(game:HttpGet("https://pastebin.com/raw/3vQbADjh", true))()
 ----------------------------------------------------------------------------------------------------------------------------------------
 local window = library:new("赣脚本V2")--V2
 ----------------------------------------------------------------------------------------------------------------------------------------
